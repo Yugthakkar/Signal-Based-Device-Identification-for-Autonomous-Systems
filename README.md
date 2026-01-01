@@ -2,244 +2,231 @@
 
 ## Overview
 
-Modern autonomous systems (robots, vehicles, industrial automation) rely heavily on external sensing devices such as cameras and microphones. These systems usually **trust device metadata** (device name, driver, vendor ID), which can be incorrect, faulty, or even malicious.
+Autonomous systems such as robots, autonomous vehicles, and industrial automation platforms rely on external sensing devices like cameras and microphones. Most current systems blindly trust device metadata such as device name, vendor ID, or driver type. This approach is unsafe and unreliable because metadata can be incorrect, faulty, or maliciously spoofed.
 
-This project proposes a **behavior-based approach** to identify the actual type of a connected device using **electrical signals and raw device communication data**, instead of trusting metadata.
+This project proposes a behavior-based device identification system that determines the actual type of a connected device using its electrical signals and raw device communication patterns, rather than relying on metadata.
 
-Currently, the system classifies:
-- 📷 Camera
-- 🎤 Microphone
+Currently, the system supports classification of:
+- Camera
+- Microphone
 
-using a **Vanilla Neural Network**, with scope to extend to other sensors in the future.
+The system is built using a Vanilla Neural Network and is demonstrated using a web-based dashboard.
 
 ---
 
 ## Problem Statement
 
-Autonomous systems today:
-- Assume connected devices are correct
-- Do not verify sensor behavior
-- Are vulnerable to wrong or spoofed hardware
+Modern autonomous systems:
+- Do not verify whether a connected sensor behaves like its claimed type
+- Are vulnerable to faulty or spoofed peripherals
+- Lack a vendor-agnostic sensor verification layer
 
-There is **no standard mechanism** to identify device type based on *how it behaves physically and digitally*.
+There is no standard mechanism to identify device type based on physical and behavioral characteristics.
 
 ---
 
 ## Proposed Solution
 
-We build a system that:
-1. Observes **raw device behavior** (USB data patterns)
-2. Observes **electrical signals** (current, voltage, power)
-3. Extracts meaningful statistical features
-4. Uses a **neural network** to classify device type
-5. Displays results via a **web dashboard**
+The proposed system works as follows:
+1. Capture raw device communication behavior (USB traffic)
+2. Capture electrical signals such as current and power usage
+3. Extract statistical features from short time windows
+4. Train a neural network to classify device type
+5. Visualize predictions and signals using a web dashboard
 
 ---
 
-## High-Level Architecture
+## System Architecture
 
+Camera / Microphone  
+↓  
+Signal Acquisition Layer  
+- USB Traffic (Laptop)  
+- Electrical Signals (ESP32 + current sensor)  
+↓  
+Feature Extraction (100 ms time windows)  
+↓  
+Vanilla Neural Network  
+↓  
+Web Dashboard (Visualization & Demo)
+
+---
+
+## Data Collection Setup
+
+Hardware Used:
+- 1 Camera
+- 1 Microphone
+- Laptop for USB data capture
+- ESP32 with current sensor (optional but recommended)
+
+Only one device is connected at a time during data collection.
 
 ---
 
 ## Data Collection Strategy
 
-### Devices Used
-- 1 Camera
-- 1 Microphone
-- ESP32 (optional, for power data)
-- Laptop (USB capture)
+Each device is recorded in two states:
+- Idle state
+- Active state
 
-### Device States
-Each device is captured in:
-- **Idle State**
-- **Active State**
+Recording parameters:
+- Recording duration per session: 30 seconds
+- Time window size: 100 ms
+- Sessions per state: 8–10
 
-### Recording Strategy
-- Duration per session: **30 seconds**
-- Window size: **100 ms**
-- Repetitions per state: **8–10 times**
+Each 100 ms window is treated as one data sample.
 
-Each 100 ms window becomes **one data sample**.
+Total dataset size: approximately 8,000–12,000 samples.
 
 ---
 
-## Signals Collected
+## Signals Captured
 
-### 1. Raw Device Data (Laptop)
-- USB packet size
-- Packet count
+Raw Device Behavior (Laptop):
+- USB packet count
+- Packet size
 - Packet timing
 - Burst behavior
 
-### 2. Electrical Signals (ESP32)
+Electrical Signals (ESP32):
 - Average current
 - Maximum current
 - Current variation
 - Power spikes
 
-⚠️ No audio or video content is recorded.
+No audio or image content is recorded.
 
 ---
 
 ## Feature Set
 
-### USB Behavior Features
-- `packet_count`
-- `avg_packet_size`
-- `packet_size_std`
-- `inter_arrival_mean`
-- `burst_ratio`
+USB Behavior Features:
+- packet_count
+- avg_packet_size
+- packet_size_std
+- inter_arrival_mean
+- burst_ratio
 
-### Electrical Features
-- `avg_current`
-- `max_current`
-- `current_std`
-- `power_spike_count`
+Electrical Features:
+- avg_current
+- max_current
+- current_std
+- power_spike_count
 
-### Label Encoding
-- `1` → Camera
-- `0` → Microphone
+Labels:
+- 1 → Camera
+- 0 → Microphone
 
 ---
 
 ## Dataset Structure
 
+dataset/
+raw/
+usb/
+camera_idle/
+camera_active/
+mic_idle/
+mic_active/
+power/
+camera/
+mic/
+processed/
+dataset.csv
 
 ---
 
 ## Machine Learning Model
 
-### Model Type
+Model Type:
 - Feedforward (Vanilla) Neural Network
 
-### Architecture
+Architecture:
+Input Layer (8–10 features)  
+→ Dense (64) + ReLU  
+→ Dense (32) + ReLU  
+→ Dense (1) + Sigmoid  
 
-### Why Vanilla NN?
-- Low-dimensional tabular data
-- Fast inference
-- Easy to explain
-- Suitable for embedded / edge systems
-
----
-
-## Training Strategy
-
-- Normalize all features
-- Split data **by session**, not randomly
-- Balanced classes
-- Loss: Binary Cross Entropy
+Training Details:
+- Feature normalization
+- Session-wise train/validation/test split
+- Loss function: Binary Cross Entropy
 - Optimizer: Adam
 
-### Expected Performance
-- Accuracy: **85–95%**
-- Stable generalization across sessions
+Expected accuracy: 85%–95%
 
 ---
 
 ## User Interface (Web Dashboard)
 
-### UI Purpose
-The UI is built to **demonstrate and explain** the system, not to replace it.
+The web dashboard is designed to explain and demonstrate system behavior.
 
-### Screens
-1. **Overview**
-   - Project description
-   - Architecture diagram
+Dashboard Screens:
+1. Project Overview
+2. Live Device Detection
+3. Signal Visualization
+4. Model Summary
+5. Dataset Summary
 
-2. **Live Device Detection**
-   - Start scan
-   - Show detected device type
-   - Confidence score
-
-3. **Signal Visualization**
-   - USB traffic over time
-   - Power usage over time
-
-4. **Model Summary**
-   - Features used
-   - Model type
-   - Accuracy
-
-5. **Dataset Summary**
-   - Number of samples
-   - Devices
-   - States
-
----
-
-## Demo Flow (For PPT / Viva)
-
-1. Plug in camera
-2. Click "Start Scan"
-3. System detects: **Camera**
-4. Unplug camera
-5. Plug in microphone
-6. Click "Start Scan"
-7. System detects: **Microphone**
+Live Demo Flow:
+- Plug in camera → Start Scan → Detected: Camera
+- Unplug camera
+- Plug in microphone → Start Scan → Detected: Microphone
 
 ---
 
 ## Real-World Use Cases
 
-### 1. Plug-and-Play Robotics
-- Multi-vendor sensors
-- Automatic sensor verification
+1. Plug-and-Play Robotics  
+Automatic sensor verification in multi-vendor robotic systems.
 
-### 2. Autonomous Vehicles
-- Sensor sanity checks
-- Safety validation
+2. Autonomous Vehicles  
+Sensor sanity checks for safety-critical driving systems.
 
-### 3. Hardware Security
-- Detect spoofed devices
-- Zero-trust hardware systems
+3. Hardware Security  
+Detection of spoofed or malicious peripherals.
 
-### 4. Industrial Automation
-- Early fault detection
-- Predictive maintenance
+4. Industrial Automation  
+Early fault detection and predictive maintenance.
 
 ---
 
 ## Advantages
 
+- Vendor-agnostic approach
 - Does not rely on device metadata
-- Vendor-agnostic
 - Behavior-based verification
-- Improves safety and security
-- Extensible to other sensors
+- Improves system safety and reliability
+- Easily extendable to additional sensors
 
 ---
 
 ## Limitations
 
-- Currently supports only camera & microphone
+- Currently supports only camera and microphone
 - Requires initial data collection
-- USB-based devices only (for now)
+- Limited to USB-based devices
 
 ---
 
 ## Future Scope
 
-- Add LiDAR, IMU, depth cameras
+- Support for LiDAR, IMU, depth cameras
 - Unknown device detection
-- Edge deployment (Raspberry Pi / ESP32)
-- Online learning
-- Real-time monitoring
+- Edge deployment on Raspberry Pi or ESP32
+- Real-time continuous monitoring
+- Online learning and model updates
 
 ---
 
-## Key Takeaway
+## Key Insight
 
-> Autonomous systems should trust **behavior**, not **labels**.
-
-This project demonstrates a practical, scalable way to achieve that.
+Autonomous systems should trust behavior, not labels.
 
 ---
 
 ## Author
 
 Final Year Project  
-Domain: Autonomous Systems | Machine Learning | Hardware Intelligence
-
-
-
-
+Domain: Autonomous Systems, Machine Learning, Hardware Intelligence
