@@ -1,0 +1,43 @@
+{
+  "schema": "usb_behavior_v1",
+  "modality": "browser_input_behavior",
+  "task": "device_identification",
+  "training_data": "synthetic (see data/usb/behavior/manifest.json)",
+  "classes": {
+    "0": "Keyboard",
+    "1": "Mouse"
+  },
+  "feature_columns": [
+    "event_rate",
+    "avg_time_gap",
+    "std_time_gap",
+    "burst_density",
+    "avg_packet_size",
+    "movement_speed",
+    "click_frequency",
+    "key_press_rate"
+  ],
+  "architecture": "Residual LayerNorm MLP (64-64-32)",
+  "normalization": {
+    "mean": [
+      11.804088592529297,
+      0.14323757588863373,
+      0.06298830360174179,
+      0.7292773127555847,
+      0.0,
+      383.39141845703125,
+      0.35139283537864685,
+      2.4400076866149902
+    ],
+    "std": [
+      8.24789810180664,
+      0.09514212608337402,
+      0.03867382928729057,
+      0.3216940462589264,
+      1.0,
+      533.3890991210938,
+      0.4522576928138733,
+      2.5771331787109375
+    ]
+  }
+}

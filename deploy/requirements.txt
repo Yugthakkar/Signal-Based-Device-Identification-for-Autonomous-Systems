@@ -1,0 +1,10 @@
+# torch is installed separately in the Dockerfile (CPU build).
+numpy==2.2.6
+pandas==2.2.3
+scikit-learn==1.6.1
+joblib==1.4.2
+fastapi==0.116.1
+uvicorn==0.35.0
+python-multipart==0.0.20
+supabase==2.7.4
+python-dotenv==1.0.1

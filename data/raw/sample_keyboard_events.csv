@@ -1,0 +1,9 @@
+event_type,timestamp,value
+key_press,1711000000.10,'a'
+key_release,1711000000.19,'a'
+key_press,1711000000.33,'s'
+key_release,1711000000.41,'s'
+key_press,1711000000.57,'d'
+key_release,1711000000.64,'d'
+key_press,1711000000.80,'f'
+key_release,1711000000.86,'f'

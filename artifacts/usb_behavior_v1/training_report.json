@@ -1,0 +1,20 @@
+{
+  "schema": "usb_behavior_v1",
+  "dataset": "data/usb/behavior/usb_behavior_v1_sessions.csv",
+  "dataset_manifest": "data/usb/behavior/manifest.json",
+  "data_source": "synthetic",
+  "disclosure": "Sessions are procedurally generated (feature_engineering/generate_behavior_sessions.py), not captured from real users. Each dataset row is one independent session, so the row-level split used by model/train.py carries no cross-session feature leakage. 100% test accuracy reflects clean synthetic class separation, not real-world performance. Replace with real labelled browser sessions before reporting production accuracy.",
+  "rows": 600,
+  "class_counts": {
+    "Keyboard": 300,
+    "Mouse": 300
+  },
+  "split": "random 80/20 row split (equivalent to session-level split; one row per session)",
+  "architecture": "Residual LayerNorm MLP (64-64-32)",
+  "test_accuracy": 1.0,
+  "known_limitations": [
+    "Synthetic data only; no real user sessions collected yet.",
+    "Binary Keyboard/Mouse classes only; idle/mixed states not modelled.",
+    "Class separation is clean by construction, so accuracy will not transfer to noisy real sessions without re-collection and re-training."
+  ]
+}

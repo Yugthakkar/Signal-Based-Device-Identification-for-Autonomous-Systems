@@ -1,0 +1,9 @@
+event_type,timestamp,value
+mouse_move,1711001000.10,520:430
+mouse_move,1711001000.15,545:455
+mouse_click,1711001000.22,545:455:left:down
+mouse_click,1711001000.24,545:455:left:up
+mouse_move,1711001000.36,600:510
+mouse_move,1711001000.48,640:560
+mouse_click,1711001000.62,640:560:left:down
+mouse_click,1711001000.65,640:560:left:up

@@ -1,0 +1,14 @@
+{
+  "name": "sbdi-workspace",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "npm run dev:full",
+    "dev:full": "concurrently -k -n BACKEND,FRONTEND -c cyan,magenta \".venv\\Scripts\\python.exe -m uvicorn main:app --app-dir ml_service --reload --host 0.0.0.0 --port 8000\" \"npm --prefix web/frontend run dev\"",
+    "dev:backend": ".venv\\Scripts\\python.exe -m uvicorn main:app --app-dir ml_service --reload --host 0.0.0.0 --port 8000",
+    "dev:frontend": "npm --prefix web/frontend run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

@@ -1,0 +1,4219 @@
+{
+  "schema": "usb_behavior_v1",
+  "source": "synthetic",
+  "generator": "feature_engineering/generate_behavior_sessions.py",
+  "seed": 42,
+  "sessions_per_class": 300,
+  "class_counts": {
+    "Keyboard": 300,
+    "Mouse": 300
+  },
+  "split_counts": {
+    "train": 375,
+    "val": 113,
+    "test": 112
+  },
+  "disclosure": "Procedurally generated session data, not captured real user behavior. Each row is one independent session, so a row-level split is a session-level split with no cross-session feature leakage. Replace with real labelled sessions before reporting real-world accuracy.",
+  "sessions": [
+    {
+      "session_id": "synth_keyboard_0000",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 9.96560443700367,
+      "event_count": 44
+    },
+    {
+      "session_id": "synth_keyboard_0001",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 10.680627659413496,
+      "event_count": 65
+    },
+    {
+      "session_id": "synth_keyboard_0002",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 4.481470358238163,
+      "event_count": 36
+    },
+    {
+      "session_id": "synth_keyboard_0003",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 11.3972089944019,
+      "event_count": 38
+    },
+    {
+      "session_id": "synth_keyboard_0004",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 10.01529786694196,
+      "event_count": 38
+    },
+    {
+      "session_id": "synth_keyboard_0005",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 4.077602296510105,
+      "event_count": 27
+    },
+    {
+      "session_id": "synth_keyboard_0006",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.555175940776351,
+      "event_count": 19
+    },
+    {
+      "session_id": "synth_keyboard_0007",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 4.396916931969818,
+      "event_count": 17
+    },
+    {
+      "session_id": "synth_keyboard_0008",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 7.267518565343563,
+      "event_count": 48
+    },
+    {
+      "session_id": "synth_keyboard_0009",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 3.720443552815665,
+      "event_count": 14
+    },
+    {
+      "session_id": "synth_keyboard_0010",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 9.917648305134414,
+      "event_count": 34
+    },
+    {
+      "session_id": "synth_keyboard_0011",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 10.218538082871518,
+      "event_count": 31
+    },
+    {
+      "session_id": "synth_keyboard_0012",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 3.604500019629902,
+      "event_count": 22
+    },
+    {
+      "session_id": "synth_keyboard_0013",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 11.598144853690298,
+      "event_count": 51
+    },
+    {
+      "session_id": "synth_keyboard_0014",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 9.647223478116445,
+      "event_count": 49
+    },
+    {
+      "session_id": "synth_keyboard_0015",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 6.682259798623175,
+      "event_count": 30
+    },
+    {
+      "session_id": "synth_keyboard_0016",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 9.6161648476767,
+      "event_count": 53
+    },
+    {
+      "session_id": "synth_keyboard_0017",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 4.595119511243453,
+      "event_count": 14
+    },
+    {
+      "session_id": "synth_keyboard_0018",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 8.899659645087471,
+      "event_count": 35
+    },
+    {
+      "session_id": "synth_keyboard_0019",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 4.509295677100029,
+      "event_count": 35
+    },
+    {
+      "session_id": "synth_keyboard_0020",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 3.607666321686735,
+      "event_count": 28
+    },
+    {
+      "session_id": "synth_keyboard_0021",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 7.958178916413626,
+      "event_count": 26
+    },
+    {
+      "session_id": "synth_keyboard_0022",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 6.216326611518488,
+      "event_count": 33
+    },
+    {
+      "session_id": "synth_keyboard_0023",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 4.930850753041293,
+      "event_count": 17
+    },
+    {
+      "session_id": "synth_keyboard_0024",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 4.445294813264268,
+      "event_count": 19
+    },
+    {
+      "session_id": "synth_keyboard_0025",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 3.3608550888549833,
+      "event_count": 15
+    },
+    {
+      "session_id": "synth_keyboard_0026",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 10.537281694089991,
+      "event_count": 69
+    },
+    {
+      "session_id": "synth_keyboard_0027",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 8.962766349295798,
+      "event_count": 36
+    },
+    {
+      "session_id": "synth_keyboard_0028",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 8.786985810067494,
+      "event_count": 31
+    },
+    {
+      "session_id": "synth_keyboard_0029",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 6.892640339181295,
+      "event_count": 39
+    },
+    {
+      "session_id": "synth_keyboard_0030",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 4.154639326600082,
+      "event_count": 14
+    },
+    {
+      "session_id": "synth_keyboard_0031",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 9.49652699010252,
+      "event_count": 31
+    },
+    {
+      "session_id": "synth_keyboard_0032",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 10.992528255133827,
+      "event_count": 37
+    },
+    {
+      "session_id": "synth_keyboard_0033",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 9.68615678872274,
+      "event_count": 59
+    },
+    {
+      "session_id": "synth_keyboard_0034",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 8.459097016758868,
+      "event_count": 43
+    },
+    {
+      "session_id": "synth_keyboard_0035",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 4.573266476097046,
+      "event_count": 32
+    },
+    {
+      "session_id": "synth_keyboard_0036",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 10.292722997461198,
+      "event_count": 49
+    },
+    {
+      "session_id": "synth_keyboard_0037",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 9.393232728205463,
+      "event_count": 36
+    },
+    {
+      "session_id": "synth_keyboard_0038",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.433068734748751,
+      "event_count": 15
+    },
+    {
+      "session_id": "synth_keyboard_0039",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 9.489364992000528,
+      "event_count": 71
+    },
+    {
+      "session_id": "synth_keyboard_0040",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 6.925227803841948,
+      "event_count": 35
+    },
+    {
+      "session_id": "synth_keyboard_0041",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 7.298838926156737,
+      "event_count": 20
+    },
+    {
+      "session_id": "synth_keyboard_0042",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.318556805546462,
+      "event_count": 30
+    },
+    {
+      "session_id": "synth_keyboard_0043",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 8.144128060560469,
+      "event_count": 67
+    },
+    {
+      "session_id": "synth_keyboard_0044",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.566989769444806,
+      "event_count": 15
+    },
+    {
+      "session_id": "synth_keyboard_0045",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 10.525797758619978,
+      "event_count": 76
+    },
+    {
+      "session_id": "synth_keyboard_0046",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 7.794663846040903,
+      "event_count": 40
+    },
+    {
+      "session_id": "synth_keyboard_0047",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 7.0073891939944914,
+      "event_count": 23
+    },
+    {
+      "session_id": "synth_keyboard_0048",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.2028853920049905,
+      "event_count": 27
+    },
+    {
+      "session_id": "synth_keyboard_0049",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 6.881864533642122,
+      "event_count": 23
+    },
+    {
+      "session_id": "synth_keyboard_0050",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 11.831488715939454,
+      "event_count": 45
+    },
+    {
+      "session_id": "synth_keyboard_0051",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 7.886475351951667,
+      "event_count": 42
+    },
+    {
+      "session_id": "synth_keyboard_0052",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.070928386516053,
+      "event_count": 13
+    },
+    {
+      "session_id": "synth_keyboard_0053",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 8.380014065670343,
+      "event_count": 36
+    },
+    {
+      "session_id": "synth_keyboard_0054",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.9913942153254816,
+      "event_count": 29
+    },
+    {
+      "session_id": "synth_keyboard_0055",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 8.43720784695364,
+      "event_count": 23
+    },
+    {
+      "session_id": "synth_keyboard_0056",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 3.985385931307337,
+      "event_count": 26
+    },
+    {
+      "session_id": "synth_keyboard_0057",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 7.977117057099653,
+      "event_count": 47
+    },
+    {
+      "session_id": "synth_keyboard_0058",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.0073251519846576,
+      "event_count": 15
+    },
+    {
+      "session_id": "synth_keyboard_0059",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 6.206857352912454,
+      "event_count": 23
+    },
+    {
+      "session_id": "synth_keyboard_0060",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 9.664008193003141,
+      "event_count": 29
+    },
+    {
+      "session_id": "synth_keyboard_0061",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 3.3638873825370332,
+      "event_count": 20
+    },
+    {
+      "session_id": "synth_keyboard_0062",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 11.181459178184555,
+      "event_count": 35
+    },
+    {
+      "session_id": "synth_keyboard_0063",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.05467037611395,
+      "event_count": 20
+    },
+    {
+      "session_id": "synth_keyboard_0064",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 9.857533607077578,
+      "event_count": 61
+    },
+    {
+      "session_id": "synth_keyboard_0065",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 8.182394445633152,
+      "event_count": 37
+    },
+    {
+      "session_id": "synth_keyboard_0066",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 11.426506435241992,
+      "event_count": 37
+    },
+    {
+      "session_id": "synth_keyboard_0067",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 4.994026494473372,
+      "event_count": 21
+    },
+    {
+      "session_id": "synth_keyboard_0068",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 5.436669455974982,
+      "event_count": 28
+    },
+    {
+      "session_id": "synth_keyboard_0069",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 11.991360157549979,
+      "event_count": 56
+    },
+    {
+      "session_id": "synth_keyboard_0070",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.464635279242131,
+      "event_count": 31
+    },
+    {
+      "session_id": "synth_keyboard_0071",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 8.086333014262983,
+      "event_count": 34
+    },
+    {
+      "session_id": "synth_keyboard_0072",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 6.77692733528551,
+      "event_count": 47
+    },
+    {
+      "session_id": "synth_keyboard_0073",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 9.213672979010568,
+      "event_count": 43
+    },
+    {
+      "session_id": "synth_keyboard_0074",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 3.6405194029310435,
+      "event_count": 10
+    },
+    {
+      "session_id": "synth_keyboard_0075",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 6.458759931935618,
+      "event_count": 20
+    },
+    {
+      "session_id": "synth_keyboard_0076",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 7.306612148472455,
+      "event_count": 25
+    },
+    {
+      "session_id": "synth_keyboard_0077",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 10.377646862541237,
+      "event_count": 82
+    },
+    {
+      "session_id": "synth_keyboard_0078",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 11.207888828143329,
+      "event_count": 79
+    },
+    {
+      "session_id": "synth_keyboard_0079",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 3.3344459563742146,
+      "event_count": 11
+    },
+    {
+      "session_id": "synth_keyboard_0080",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 11.214632110630136,
+      "event_count": 45
+    },
+    {
+      "session_id": "synth_keyboard_0081",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 7.092923632280343,
+      "event_count": 48
+    },
+    {
+      "session_id": "synth_keyboard_0082",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 3.644285719367244,
+      "event_count": 34
+    },
+    {
+      "session_id": "synth_keyboard_0083",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 6.9316680678399685,
+      "event_count": 44
+    },
+    {
+      "session_id": "synth_keyboard_0084",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 6.900777799576559,
+      "event_count": 37
+    },
+    {
+      "session_id": "synth_keyboard_0085",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 8.668089972524266,
+      "event_count": 35
+    },
+    {
+      "session_id": "synth_keyboard_0086",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 11.274572319309693,
+      "event_count": 78
+    },
+    {
+      "session_id": "synth_keyboard_0087",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 10.530130970799,
+      "event_count": 72
+    },
+    {
+      "session_id": "synth_keyboard_0088",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 3.8888837194220605,
+      "event_count": 24
+    },
+    {
+      "session_id": "synth_keyboard_0089",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 4.393779702859523,
+      "event_count": 14
+    },
+    {
+      "session_id": "synth_keyboard_0090",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 7.993428603389115,
+      "event_count": 43
+    },
+    {
+      "session_id": "synth_keyboard_0091",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 6.750024698662935,
+      "event_count": 31
+    },
+    {
+      "session_id": "synth_keyboard_0092",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 10.363016266730153,
+      "event_count": 55
+    },
+    {
+      "session_id": "synth_keyboard_0093",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 11.678916781963766,
+      "event_count": 61
+    },
+    {
+      "session_id": "synth_keyboard_0094",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 8.702434073476748,
+      "event_count": 26
+    },
+    {
+      "session_id": "synth_keyboard_0095",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 3.4329767521500116,
+      "event_count": 14
+    },
+    {
+      "session_id": "synth_keyboard_0096",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 4.889408817842352,
+      "event_count": 17
+    },
+    {
+      "session_id": "synth_keyboard_0097",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 9.745298662103306,
+      "event_count": 49
+    },
+    {
+      "session_id": "synth_keyboard_0098",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 5.011001550568549,
+      "event_count": 39
+    },
+    {
+      "session_id": "synth_keyboard_0099",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 7.613519232482657,
+      "event_count": 35
+    },
+    {
+      "session_id": "synth_keyboard_0100",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 9.994374744663087,
+      "event_count": 66
+    },
+    {
+      "session_id": "synth_keyboard_0101",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 7.099287405975639,
+      "event_count": 43
+    },
+    {
+      "session_id": "synth_keyboard_0102",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 3.115616237003048,
+      "event_count": 23
+    },
+    {
+      "session_id": "synth_keyboard_0103",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 11.568451988700337,
+      "event_count": 54
+    },
+    {
+      "session_id": "synth_keyboard_0104",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 11.907923100442002,
+      "event_count": 48
+    },
+    {
+      "session_id": "synth_keyboard_0105",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 3.533980491524707,
+      "event_count": 12
+    },
+    {
+      "session_id": "synth_keyboard_0106",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 7.6933840153726765,
+      "event_count": 48
+    },
+    {
+      "session_id": "synth_keyboard_0107",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 8.927140461114938,
+      "event_count": 32
+    },
+    {
+      "session_id": "synth_keyboard_0108",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 6.496819774106539,
+      "event_count": 26
+    },
+    {
+      "session_id": "synth_keyboard_0109",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.22131601566275,
+      "event_count": 27
+    },
+    {
+      "session_id": "synth_keyboard_0110",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 3.400117287927425,
+      "event_count": 21
+    },
+    {
+      "session_id": "synth_keyboard_0111",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 5.067583739515143,
+      "event_count": 24
+    },
+    {
+      "session_id": "synth_keyboard_0112",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 5.445261725454033,
+      "event_count": 31
+    },
+    {
+      "session_id": "synth_keyboard_0113",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 7.72585316270562,
+      "event_count": 30
+    },
+    {
+      "session_id": "synth_keyboard_0114",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 11.813071928294772,
+      "event_count": 82
+    },
+    {
+      "session_id": "synth_keyboard_0115",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 7.445289955417632,
+      "event_count": 28
+    },
+    {
+      "session_id": "synth_keyboard_0116",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 5.954167452893932,
+      "event_count": 21
+    },
+    {
+      "session_id": "synth_keyboard_0117",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 8.999442904990767,
+      "event_count": 31
+    },
+    {
+      "session_id": "synth_keyboard_0118",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 7.840617700491313,
+      "event_count": 46
+    },
+    {
+      "session_id": "synth_keyboard_0119",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 11.339289517605321,
+      "event_count": 45
+    },
+    {
+      "session_id": "synth_keyboard_0120",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 7.7821387794250665,
+      "event_count": 24
+    },
+    {
+      "session_id": "synth_keyboard_0121",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 10.27846084586023,
+      "event_count": 40
+    },
+    {
+      "session_id": "synth_keyboard_0122",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 5.476471947120099,
+      "event_count": 31
+    },
+    {
+      "session_id": "synth_keyboard_0123",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 11.216217754939569,
+      "event_count": 52
+    },
+    {
+      "session_id": "synth_keyboard_0124",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 3.3316872475516655,
+      "event_count": 21
+    },
+    {
+      "session_id": "synth_keyboard_0125",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 7.944685422061249,
+      "event_count": 51
+    },
+    {
+      "session_id": "synth_keyboard_0126",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 4.596002969670586,
+      "event_count": 16
+    },
+    {
+      "session_id": "synth_keyboard_0127",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 4.694028347066995,
+      "event_count": 21
+    },
+    {
+      "session_id": "synth_keyboard_0128",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 4.163393513058592,
+      "event_count": 26
+    },
+    {
+      "session_id": "synth_keyboard_0129",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 10.62239049518252,
+      "event_count": 74
+    },
+    {
+      "session_id": "synth_keyboard_0130",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 4.0024659617135985,
+      "event_count": 15
+    },
+    {
+      "session_id": "synth_keyboard_0131",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 6.538590186637768,
+      "event_count": 45
+    },
+    {
+      "session_id": "synth_keyboard_0132",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 10.883976054143979,
+      "event_count": 55
+    },
+    {
+      "session_id": "synth_keyboard_0133",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 3.5382108834528534,
+      "event_count": 21
+    },
+    {
+      "session_id": "synth_keyboard_0134",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 6.548482822504072,
+      "event_count": 22
+    },
+    {
+      "session_id": "synth_keyboard_0135",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 4.277208929965825,
+      "event_count": 22
+    },
+    {
+      "session_id": "synth_keyboard_0136",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 11.568651414005974,
+      "event_count": 46
+    },
+    {
+      "session_id": "synth_keyboard_0137",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 7.042135111832364,
+      "event_count": 22
+    },
+    {
+      "session_id": "synth_keyboard_0138",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.3415577970125305,
+      "event_count": 17
+    },
+    {
+      "session_id": "synth_keyboard_0139",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.333628084205317,
+      "event_count": 27
+    },
+    {
+      "session_id": "synth_keyboard_0140",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 6.365051053867766,
+      "event_count": 32
+    },
+    {
+      "session_id": "synth_keyboard_0141",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 6.3558792438715255,
+      "event_count": 44
+    },
+    {
+      "session_id": "synth_keyboard_0142",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 4.842497482869389,
+      "event_count": 20
+    },
+    {
+      "session_id": "synth_keyboard_0143",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 3.4567371374248768,
+      "event_count": 10
+    },
+    {
+      "session_id": "synth_keyboard_0144",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 4.053443437628614,
+      "event_count": 16
+    },
+    {
+      "session_id": "synth_keyboard_0145",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 9.810770350155428,
+      "event_count": 31
+    },
+    {
+      "session_id": "synth_keyboard_0146",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 9.120428846123435,
+      "event_count": 58
+    },
+    {
+      "session_id": "synth_keyboard_0147",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 4.009688994541195,
+      "event_count": 23
+    },
+    {
+      "session_id": "synth_keyboard_0148",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.3401195168760704,
+      "event_count": 20
+    },
+    {
+      "session_id": "synth_keyboard_0149",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 9.563369512482591,
+      "event_count": 35
+    },
+    {
+      "session_id": "synth_keyboard_0150",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 8.372646349864981,
+      "event_count": 24
+    },
+    {
+      "session_id": "synth_keyboard_0151",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 6.151611162250806,
+      "event_count": 23
+    },
+    {
+      "session_id": "synth_keyboard_0152",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 10.008693424758658,
+      "event_count": 43
+    },
+    {
+      "session_id": "synth_keyboard_0153",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 9.982188996609771,
+      "event_count": 33
+    },
+    {
+      "session_id": "synth_keyboard_0154",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 3.146476643989251,
+      "event_count": 10
+    },
+    {
+      "session_id": "synth_keyboard_0155",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 9.767881993515253,
+      "event_count": 54
+    },
+    {
+      "session_id": "synth_keyboard_0156",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 8.625990580216236,
+      "event_count": 34
+    },
+    {
+      "session_id": "synth_keyboard_0157",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 7.161905213685777,
+      "event_count": 42
+    },
+    {
+      "session_id": "synth_keyboard_0158",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 7.323330140797041,
+      "event_count": 27
+    },
+    {
+      "session_id": "synth_keyboard_0159",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 7.063653542063992,
+      "event_count": 38
+    },
+    {
+      "session_id": "synth_keyboard_0160",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 9.706236768078467,
+      "event_count": 25
+    },
+    {
+      "session_id": "synth_keyboard_0161",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 6.085882913343711,
+      "event_count": 20
+    },
+    {
+      "session_id": "synth_keyboard_0162",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 3.920816325747443,
+      "event_count": 16
+    },
+    {
+      "session_id": "synth_keyboard_0163",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 4.545499055639079,
+      "event_count": 14
+    },
+    {
+      "session_id": "synth_keyboard_0164",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 3.0380333358459417,
+      "event_count": 11
+    },
+    {
+      "session_id": "synth_keyboard_0165",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 8.675631338787088,
+      "event_count": 35
+    },
+    {
+      "session_id": "synth_keyboard_0166",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 3.308571606481276,
+      "event_count": 13
+    },
+    {
+      "session_id": "synth_keyboard_0167",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 5.54345679901961,
+      "event_count": 23
+    },
+    {
+      "session_id": "synth_keyboard_0168",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 9.737322712182515,
+      "event_count": 58
+    },
+    {
+      "session_id": "synth_keyboard_0169",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 4.303901089920717,
+      "event_count": 15
+    },
+    {
+      "session_id": "synth_keyboard_0170",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 6.528305109552153,
+      "event_count": 43
+    },
+    {
+      "session_id": "synth_keyboard_0171",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 6.635969248633761,
+      "event_count": 34
+    },
+    {
+      "session_id": "synth_keyboard_0172",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 3.6927135153777364,
+      "event_count": 16
+    },
+    {
+      "session_id": "synth_keyboard_0173",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.62749157156289,
+      "event_count": 27
+    },
+    {
+      "session_id": "synth_keyboard_0174",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 9.90980844035233,
+      "event_count": 50
+    },
+    {
+      "session_id": "synth_keyboard_0175",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 7.895014234374005,
+      "event_count": 25
+    },
+    {
+      "session_id": "synth_keyboard_0176",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.56100971907977,
+      "event_count": 33
+    },
+    {
+      "session_id": "synth_keyboard_0177",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.625641638313821,
+      "event_count": 32
+    },
+    {
+      "session_id": "synth_keyboard_0178",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.989255185461817,
+      "event_count": 29
+    },
+    {
+      "session_id": "synth_keyboard_0179",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 4.349612543955675,
+      "event_count": 18
+    },
+    {
+      "session_id": "synth_keyboard_0180",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 4.140294867438854,
+      "event_count": 23
+    },
+    {
+      "session_id": "synth_keyboard_0181",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 7.852897220660136,
+      "event_count": 55
+    },
+    {
+      "session_id": "synth_keyboard_0182",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 11.191444785264167,
+      "event_count": 62
+    },
+    {
+      "session_id": "synth_keyboard_0183",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 8.04157048890728,
+      "event_count": 26
+    },
+    {
+      "session_id": "synth_keyboard_0184",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 6.9652047016031595,
+      "event_count": 55
+    },
+    {
+      "session_id": "synth_keyboard_0185",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 8.716405064545317,
+      "event_count": 57
+    },
+    {
+      "session_id": "synth_keyboard_0186",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 9.097507645375135,
+      "event_count": 35
+    },
+    {
+      "session_id": "synth_keyboard_0187",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 11.909401613305777,
+      "event_count": 47
+    },
+    {
+      "session_id": "synth_keyboard_0188",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 9.098179247245564,
+      "event_count": 30
+    },
+    {
+      "session_id": "synth_keyboard_0189",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 11.10422215097029,
+      "event_count": 70
+    },
+    {
+      "session_id": "synth_keyboard_0190",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 9.255094737481873,
+      "event_count": 26
+    },
+    {
+      "session_id": "synth_keyboard_0191",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 11.385346224598505,
+      "event_count": 32
+    },
+    {
+      "session_id": "synth_keyboard_0192",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 11.497990381693995,
+      "event_count": 45
+    },
+    {
+      "session_id": "synth_keyboard_0193",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 11.681942084407197,
+      "event_count": 63
+    },
+    {
+      "session_id": "synth_keyboard_0194",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 9.454204538412208,
+      "event_count": 75
+    },
+    {
+      "session_id": "synth_keyboard_0195",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 8.045728452375657,
+      "event_count": 25
+    },
+    {
+      "session_id": "synth_keyboard_0196",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 10.639676833821746,
+      "event_count": 34
+    },
+    {
+      "session_id": "synth_keyboard_0197",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 4.80366802377684,
+      "event_count": 35
+    },
+    {
+      "session_id": "synth_keyboard_0198",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 11.52426935915996,
+      "event_count": 42
+    },
+    {
+      "session_id": "synth_keyboard_0199",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 7.67327996807581,
+      "event_count": 28
+    },
+    {
+      "session_id": "synth_keyboard_0200",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 3.535467346405043,
+      "event_count": 13
+    },
+    {
+      "session_id": "synth_keyboard_0201",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 9.47683006512983,
+      "event_count": 40
+    },
+    {
+      "session_id": "synth_keyboard_0202",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 7.460083188697587,
+      "event_count": 33
+    },
+    {
+      "session_id": "synth_keyboard_0203",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 11.508550556260046,
+      "event_count": 51
+    },
+    {
+      "session_id": "synth_keyboard_0204",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 8.231027572396426,
+      "event_count": 35
+    },
+    {
+      "session_id": "synth_keyboard_0205",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.1353833440067245,
+      "event_count": 39
+    },
+    {
+      "session_id": "synth_keyboard_0206",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 10.479810206982092,
+      "event_count": 45
+    },
+    {
+      "session_id": "synth_keyboard_0207",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 8.940391368653998,
+      "event_count": 33
+    },
+    {
+      "session_id": "synth_keyboard_0208",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 11.598807305566732,
+      "event_count": 92
+    },
+    {
+      "session_id": "synth_keyboard_0209",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 7.719682726083593,
+      "event_count": 25
+    },
+    {
+      "session_id": "synth_keyboard_0210",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 4.31274491072294,
+      "event_count": 30
+    },
+    {
+      "session_id": "synth_keyboard_0211",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 8.052871042211411,
+      "event_count": 36
+    },
+    {
+      "session_id": "synth_keyboard_0212",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 9.01632358050972,
+      "event_count": 42
+    },
+    {
+      "session_id": "synth_keyboard_0213",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 3.6974116877305048,
+      "event_count": 11
+    },
+    {
+      "session_id": "synth_keyboard_0214",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 6.371814175951983,
+      "event_count": 48
+    },
+    {
+      "session_id": "synth_keyboard_0215",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 8.371737194785663,
+      "event_count": 33
+    },
+    {
+      "session_id": "synth_keyboard_0216",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 3.102067894295811,
+      "event_count": 11
+    },
+    {
+      "session_id": "synth_keyboard_0217",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 3.7338231491468674,
+      "event_count": 18
+    },
+    {
+      "session_id": "synth_keyboard_0218",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 4.4388034112928025,
+      "event_count": 26
+    },
+    {
+      "session_id": "synth_keyboard_0219",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 8.256140194589369,
+      "event_count": 31
+    },
+    {
+      "session_id": "synth_keyboard_0220",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 5.77027361884961,
+      "event_count": 37
+    },
+    {
+      "session_id": "synth_keyboard_0221",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 10.025754107709963,
+      "event_count": 33
+    },
+    {
+      "session_id": "synth_keyboard_0222",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 10.004014790281897,
+      "event_count": 52
+    },
+    {
+      "session_id": "synth_keyboard_0223",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 4.0616849541573785,
+      "event_count": 28
+    },
+    {
+      "session_id": "synth_keyboard_0224",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 8.00929556151075,
+      "event_count": 21
+    },
+    {
+      "session_id": "synth_keyboard_0225",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.705053487173017,
+      "event_count": 34
+    },
+    {
+      "session_id": "synth_keyboard_0226",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.087575199203723,
+      "event_count": 34
+    },
+    {
+      "session_id": "synth_keyboard_0227",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 8.949160803361082,
+      "event_count": 58
+    },
+    {
+      "session_id": "synth_keyboard_0228",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 4.8521580740851995,
+      "event_count": 17
+    },
+    {
+      "session_id": "synth_keyboard_0229",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 11.805772379768714,
+      "event_count": 82
+    },
+    {
+      "session_id": "synth_keyboard_0230",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 3.2008730803720336,
+      "event_count": 10
+    },
+    {
+      "session_id": "synth_keyboard_0231",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 4.042077827441757,
+      "event_count": 28
+    },
+    {
+      "session_id": "synth_keyboard_0232",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.233051925072106,
+      "event_count": 13
+    },
+    {
+      "session_id": "synth_keyboard_0233",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 9.63358804914443,
+      "event_count": 51
+    },
+    {
+      "session_id": "synth_keyboard_0234",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 10.410230492168724,
+      "event_count": 49
+    },
+    {
+      "session_id": "synth_keyboard_0235",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 3.5638449833511574,
+      "event_count": 13
+    },
+    {
+      "session_id": "synth_keyboard_0236",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 7.2029467510053795,
+      "event_count": 38
+    },
+    {
+      "session_id": "synth_keyboard_0237",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 8.47268720498932,
+      "event_count": 61
+    },
+    {
+      "session_id": "synth_keyboard_0238",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 11.45471981719985,
+      "event_count": 48
+    },
+    {
+      "session_id": "synth_keyboard_0239",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 6.845429305198662,
+      "event_count": 20
+    },
+    {
+      "session_id": "synth_keyboard_0240",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 11.19084551496289,
+      "event_count": 59
+    },
+    {
+      "session_id": "synth_keyboard_0241",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 10.565581335342067,
+      "event_count": 31
+    },
+    {
+      "session_id": "synth_keyboard_0242",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 6.741888293566204,
+      "event_count": 35
+    },
+    {
+      "session_id": "synth_keyboard_0243",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 8.101623721259807,
+      "event_count": 33
+    },
+    {
+      "session_id": "synth_keyboard_0244",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.612086271553083,
+      "event_count": 17
+    },
+    {
+      "session_id": "synth_keyboard_0245",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 11.523829342521056,
+      "event_count": 48
+    },
+    {
+      "session_id": "synth_keyboard_0246",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 8.715296053862222,
+      "event_count": 70
+    },
+    {
+      "session_id": "synth_keyboard_0247",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 3.051680466488175,
+      "event_count": 9
+    },
+    {
+      "session_id": "synth_keyboard_0248",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 11.396864738701849,
+      "event_count": 36
+    },
+    {
+      "session_id": "synth_keyboard_0249",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 4.123922348095844,
+      "event_count": 21
+    },
+    {
+      "session_id": "synth_keyboard_0250",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.2708585512830375,
+      "event_count": 20
+    },
+    {
+      "session_id": "synth_keyboard_0251",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 7.255890017027562,
+      "event_count": 21
+    },
+    {
+      "session_id": "synth_keyboard_0252",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 11.216250252762869,
+      "event_count": 44
+    },
+    {
+      "session_id": "synth_keyboard_0253",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 10.990997361182938,
+      "event_count": 34
+    },
+    {
+      "session_id": "synth_keyboard_0254",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 5.263762355399028,
+      "event_count": 18
+    },
+    {
+      "session_id": "synth_keyboard_0255",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 11.248879179845192,
+      "event_count": 80
+    },
+    {
+      "session_id": "synth_keyboard_0256",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 7.689853336515869,
+      "event_count": 36
+    },
+    {
+      "session_id": "synth_keyboard_0257",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 11.30825399362069,
+      "event_count": 44
+    },
+    {
+      "session_id": "synth_keyboard_0258",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 7.380884730970515,
+      "event_count": 24
+    },
+    {
+      "session_id": "synth_keyboard_0259",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 7.26747174397813,
+      "event_count": 23
+    },
+    {
+      "session_id": "synth_keyboard_0260",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 8.29022481406474,
+      "event_count": 25
+    },
+    {
+      "session_id": "synth_keyboard_0261",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 10.993405112996257,
+      "event_count": 65
+    },
+    {
+      "session_id": "synth_keyboard_0262",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.019188073429867,
+      "event_count": 24
+    },
+    {
+      "session_id": "synth_keyboard_0263",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 8.821577712498906,
+      "event_count": 34
+    },
+    {
+      "session_id": "synth_keyboard_0264",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 11.788357184865632,
+      "event_count": 41
+    },
+    {
+      "session_id": "synth_keyboard_0265",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 6.828109607052642,
+      "event_count": 31
+    },
+    {
+      "session_id": "synth_keyboard_0266",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 11.649458170237006,
+      "event_count": 63
+    },
+    {
+      "session_id": "synth_keyboard_0267",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.729256991837746,
+      "event_count": 27
+    },
+    {
+      "session_id": "synth_keyboard_0268",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.048042933124084,
+      "event_count": 19
+    },
+    {
+      "session_id": "synth_keyboard_0269",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.776629461893194,
+      "event_count": 21
+    },
+    {
+      "session_id": "synth_keyboard_0270",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 6.651236208822207,
+      "event_count": 30
+    },
+    {
+      "session_id": "synth_keyboard_0271",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 8.777040442266399,
+      "event_count": 59
+    },
+    {
+      "session_id": "synth_keyboard_0272",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 5.4468558582016975,
+      "event_count": 28
+    },
+    {
+      "session_id": "synth_keyboard_0273",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 10.428464912113178,
+      "event_count": 88
+    },
+    {
+      "session_id": "synth_keyboard_0274",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 9.31349050665742,
+      "event_count": 55
+    },
+    {
+      "session_id": "synth_keyboard_0275",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 11.258726289331971,
+      "event_count": 34
+    },
+    {
+      "session_id": "synth_keyboard_0276",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 7.819461185350314,
+      "event_count": 39
+    },
+    {
+      "session_id": "synth_keyboard_0277",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.06686233642363,
+      "event_count": 39
+    },
+    {
+      "session_id": "synth_keyboard_0278",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 3.0135950078575546,
+      "event_count": 10
+    },
+    {
+      "session_id": "synth_keyboard_0279",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 4.649910390570156,
+      "event_count": 22
+    },
+    {
+      "session_id": "synth_keyboard_0280",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 11.805072646768457,
+      "event_count": 34
+    },
+    {
+      "session_id": "synth_keyboard_0281",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 8.251118740511835,
+      "event_count": 32
+    },
+    {
+      "session_id": "synth_keyboard_0282",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 6.146740171859165,
+      "event_count": 20
+    },
+    {
+      "session_id": "synth_keyboard_0283",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 8.889799282120237,
+      "event_count": 39
+    },
+    {
+      "session_id": "synth_keyboard_0284",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 6.282248915419148,
+      "event_count": 19
+    },
+    {
+      "session_id": "synth_keyboard_0285",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 5.880425643951973,
+      "event_count": 23
+    },
+    {
+      "session_id": "synth_keyboard_0286",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 9.83900262962712,
+      "event_count": 30
+    },
+    {
+      "session_id": "synth_keyboard_0287",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 4.153241217077722,
+      "event_count": 26
+    },
+    {
+      "session_id": "synth_keyboard_0288",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 9.345410608336703,
+      "event_count": 53
+    },
+    {
+      "session_id": "synth_keyboard_0289",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 3.9352424167940776,
+      "event_count": 19
+    },
+    {
+      "session_id": "synth_keyboard_0290",
+      "label": "Keyboard",
+      "split": "val",
+      "duration_s": 3.342805593763383,
+      "event_count": 10
+    },
+    {
+      "session_id": "synth_keyboard_0291",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 4.4396820988295165,
+      "event_count": 20
+    },
+    {
+      "session_id": "synth_keyboard_0292",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 8.954316251089207,
+      "event_count": 48
+    },
+    {
+      "session_id": "synth_keyboard_0293",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 11.971499613402214,
+      "event_count": 34
+    },
+    {
+      "session_id": "synth_keyboard_0294",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 11.828445450014437,
+      "event_count": 35
+    },
+    {
+      "session_id": "synth_keyboard_0295",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 5.67751380274721,
+      "event_count": 43
+    },
+    {
+      "session_id": "synth_keyboard_0296",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 10.185763694114808,
+      "event_count": 46
+    },
+    {
+      "session_id": "synth_keyboard_0297",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 11.962004865338677,
+      "event_count": 49
+    },
+    {
+      "session_id": "synth_keyboard_0298",
+      "label": "Keyboard",
+      "split": "test",
+      "duration_s": 9.70702067599382,
+      "event_count": 41
+    },
+    {
+      "session_id": "synth_keyboard_0299",
+      "label": "Keyboard",
+      "split": "train",
+      "duration_s": 7.6829632398005,
+      "event_count": 30
+    },
+    {
+      "session_id": "synth_mouse_0300",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 7.941533753596149,
+      "event_count": 201
+    },
+    {
+      "session_id": "synth_mouse_0301",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 3.467123341488992,
+      "event_count": 60
+    },
+    {
+      "session_id": "synth_mouse_0302",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 7.103920593465621,
+      "event_count": 74
+    },
+    {
+      "session_id": "synth_mouse_0303",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 11.499216832899391,
+      "event_count": 238
+    },
+    {
+      "session_id": "synth_mouse_0304",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 3.612035343646298,
+      "event_count": 36
+    },
+    {
+      "session_id": "synth_mouse_0305",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 6.723239211502788,
+      "event_count": 170
+    },
+    {
+      "session_id": "synth_mouse_0306",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.194295159608153,
+      "event_count": 142
+    },
+    {
+      "session_id": "synth_mouse_0307",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 4.024118881117786,
+      "event_count": 45
+    },
+    {
+      "session_id": "synth_mouse_0308",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 10.30889139633452,
+      "event_count": 129
+    },
+    {
+      "session_id": "synth_mouse_0309",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.41083215510134,
+      "event_count": 112
+    },
+    {
+      "session_id": "synth_mouse_0310",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 7.190196424480662,
+      "event_count": 205
+    },
+    {
+      "session_id": "synth_mouse_0311",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 9.39589300021396,
+      "event_count": 145
+    },
+    {
+      "session_id": "synth_mouse_0312",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 8.034002496326817,
+      "event_count": 142
+    },
+    {
+      "session_id": "synth_mouse_0313",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 3.2775308158116676,
+      "event_count": 34
+    },
+    {
+      "session_id": "synth_mouse_0314",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 4.937822632662629,
+      "event_count": 125
+    },
+    {
+      "session_id": "synth_mouse_0315",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 6.68373835483105,
+      "event_count": 100
+    },
+    {
+      "session_id": "synth_mouse_0316",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 9.506207017217049,
+      "event_count": 167
+    },
+    {
+      "session_id": "synth_mouse_0317",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 9.608716456677929,
+      "event_count": 206
+    },
+    {
+      "session_id": "synth_mouse_0318",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 6.571773973457504,
+      "event_count": 169
+    },
+    {
+      "session_id": "synth_mouse_0319",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 3.595473542831617,
+      "event_count": 74
+    },
+    {
+      "session_id": "synth_mouse_0320",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 9.294781017094735,
+      "event_count": 128
+    },
+    {
+      "session_id": "synth_mouse_0321",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 5.0920740709679855,
+      "event_count": 65
+    },
+    {
+      "session_id": "synth_mouse_0322",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 8.936850001568308,
+      "event_count": 182
+    },
+    {
+      "session_id": "synth_mouse_0323",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 5.521562006784018,
+      "event_count": 162
+    },
+    {
+      "session_id": "synth_mouse_0324",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.663345975202578,
+      "event_count": 286
+    },
+    {
+      "session_id": "synth_mouse_0325",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 5.004822943037128,
+      "event_count": 151
+    },
+    {
+      "session_id": "synth_mouse_0326",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 6.2293500668375374,
+      "event_count": 96
+    },
+    {
+      "session_id": "synth_mouse_0327",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 7.305499178803499,
+      "event_count": 94
+    },
+    {
+      "session_id": "synth_mouse_0328",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 4.664346885106518,
+      "event_count": 57
+    },
+    {
+      "session_id": "synth_mouse_0329",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 9.930452877957828,
+      "event_count": 149
+    },
+    {
+      "session_id": "synth_mouse_0330",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 9.491779919808927,
+      "event_count": 127
+    },
+    {
+      "session_id": "synth_mouse_0331",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 7.595339206093557,
+      "event_count": 83
+    },
+    {
+      "session_id": "synth_mouse_0332",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 9.23132051802654,
+      "event_count": 112
+    },
+    {
+      "session_id": "synth_mouse_0333",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 8.100395188396355,
+      "event_count": 91
+    },
+    {
+      "session_id": "synth_mouse_0334",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 9.655924173697581,
+      "event_count": 192
+    },
+    {
+      "session_id": "synth_mouse_0335",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 9.712267605162815,
+      "event_count": 273
+    },
+    {
+      "session_id": "synth_mouse_0336",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 10.13336299237323,
+      "event_count": 197
+    },
+    {
+      "session_id": "synth_mouse_0337",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 8.466333476285609,
+      "event_count": 167
+    },
+    {
+      "session_id": "synth_mouse_0338",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 11.28894694618006,
+      "event_count": 154
+    },
+    {
+      "session_id": "synth_mouse_0339",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 3.452683819416647,
+      "event_count": 52
+    },
+    {
+      "session_id": "synth_mouse_0340",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.858414336205907,
+      "event_count": 114
+    },
+    {
+      "session_id": "synth_mouse_0341",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 10.709061710558672,
+      "event_count": 337
+    },
+    {
+      "session_id": "synth_mouse_0342",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 3.3221830315256757,
+      "event_count": 40
+    },
+    {
+      "session_id": "synth_mouse_0343",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 5.629525657136851,
+      "event_count": 61
+    },
+    {
+      "session_id": "synth_mouse_0344",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 3.6503018625728996,
+      "event_count": 84
+    },
+    {
+      "session_id": "synth_mouse_0345",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 5.3333971587509215,
+      "event_count": 73
+    },
+    {
+      "session_id": "synth_mouse_0346",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 3.711771909205855,
+      "event_count": 38
+    },
+    {
+      "session_id": "synth_mouse_0347",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 8.405034247441984,
+      "event_count": 127
+    },
+    {
+      "session_id": "synth_mouse_0348",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 3.2066602753728994,
+      "event_count": 82
+    },
+    {
+      "session_id": "synth_mouse_0349",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 9.886557632330316,
+      "event_count": 127
+    },
+    {
+      "session_id": "synth_mouse_0350",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 9.487392713580622,
+      "event_count": 125
+    },
+    {
+      "session_id": "synth_mouse_0351",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 3.011233225116338,
+      "event_count": 52
+    },
+    {
+      "session_id": "synth_mouse_0352",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 9.710892492819113,
+      "event_count": 310
+    },
+    {
+      "session_id": "synth_mouse_0353",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 7.040581725065984,
+      "event_count": 100
+    },
+    {
+      "session_id": "synth_mouse_0354",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 4.8146022806374695,
+      "event_count": 86
+    },
+    {
+      "session_id": "synth_mouse_0355",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 7.783250391291751,
+      "event_count": 83
+    },
+    {
+      "session_id": "synth_mouse_0356",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 9.773103608887979,
+      "event_count": 166
+    },
+    {
+      "session_id": "synth_mouse_0357",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 5.764454398530085,
+      "event_count": 134
+    },
+    {
+      "session_id": "synth_mouse_0358",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 6.470123705387805,
+      "event_count": 77
+    },
+    {
+      "session_id": "synth_mouse_0359",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 9.244141990586698,
+      "event_count": 98
+    },
+    {
+      "session_id": "synth_mouse_0360",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 3.976498126497394,
+      "event_count": 41
+    },
+    {
+      "session_id": "synth_mouse_0361",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 11.844069111598015,
+      "event_count": 126
+    },
+    {
+      "session_id": "synth_mouse_0362",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 3.7258673716639725,
+      "event_count": 86
+    },
+    {
+      "session_id": "synth_mouse_0363",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.096405170939528,
+      "event_count": 133
+    },
+    {
+      "session_id": "synth_mouse_0364",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 5.980009822037344,
+      "event_count": 80
+    },
+    {
+      "session_id": "synth_mouse_0365",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 7.206271419493015,
+      "event_count": 129
+    },
+    {
+      "session_id": "synth_mouse_0366",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 11.922012177114425,
+      "event_count": 220
+    },
+    {
+      "session_id": "synth_mouse_0367",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 3.057159699224873,
+      "event_count": 58
+    },
+    {
+      "session_id": "synth_mouse_0368",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 11.429015991500595,
+      "event_count": 271
+    },
+    {
+      "session_id": "synth_mouse_0369",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 11.499717746245324,
+      "event_count": 268
+    },
+    {
+      "session_id": "synth_mouse_0370",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 5.715401064023512,
+      "event_count": 66
+    },
+    {
+      "session_id": "synth_mouse_0371",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 10.380947363894428,
+      "event_count": 197
+    },
+    {
+      "session_id": "synth_mouse_0372",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 5.94958837890411,
+      "event_count": 91
+    },
+    {
+      "session_id": "synth_mouse_0373",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 7.179629945635495,
+      "event_count": 71
+    },
+    {
+      "session_id": "synth_mouse_0374",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 6.637610350410119,
+      "event_count": 92
+    },
+    {
+      "session_id": "synth_mouse_0375",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 5.410834691227784,
+      "event_count": 96
+    },
+    {
+      "session_id": "synth_mouse_0376",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 7.63675860866385,
+      "event_count": 186
+    },
+    {
+      "session_id": "synth_mouse_0377",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 6.897087944096366,
+      "event_count": 88
+    },
+    {
+      "session_id": "synth_mouse_0378",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 10.662344379865832,
+      "event_count": 139
+    },
+    {
+      "session_id": "synth_mouse_0379",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.608395310306372,
+      "event_count": 213
+    },
+    {
+      "session_id": "synth_mouse_0380",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 11.617818152610466,
+      "event_count": 229
+    },
+    {
+      "session_id": "synth_mouse_0381",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.043321543817715,
+      "event_count": 249
+    },
+    {
+      "session_id": "synth_mouse_0382",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 6.169660473602544,
+      "event_count": 133
+    },
+    {
+      "session_id": "synth_mouse_0383",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 9.99802135473782,
+      "event_count": 317
+    },
+    {
+      "session_id": "synth_mouse_0384",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 7.135309800908569,
+      "event_count": 220
+    },
+    {
+      "session_id": "synth_mouse_0385",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 3.16775265141418,
+      "event_count": 103
+    },
+    {
+      "session_id": "synth_mouse_0386",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 11.80489359617103,
+      "event_count": 191
+    },
+    {
+      "session_id": "synth_mouse_0387",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.903371514111463,
+      "event_count": 131
+    },
+    {
+      "session_id": "synth_mouse_0388",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 11.558848963732528,
+      "event_count": 360
+    },
+    {
+      "session_id": "synth_mouse_0389",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 9.424092306557355,
+      "event_count": 175
+    },
+    {
+      "session_id": "synth_mouse_0390",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 5.131297268663724,
+      "event_count": 54
+    },
+    {
+      "session_id": "synth_mouse_0391",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 11.036331253244246,
+      "event_count": 167
+    },
+    {
+      "session_id": "synth_mouse_0392",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 8.094581006945024,
+      "event_count": 102
+    },
+    {
+      "session_id": "synth_mouse_0393",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 4.805282998045756,
+      "event_count": 120
+    },
+    {
+      "session_id": "synth_mouse_0394",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 3.975379522935441,
+      "event_count": 45
+    },
+    {
+      "session_id": "synth_mouse_0395",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 7.231511738145133,
+      "event_count": 75
+    },
+    {
+      "session_id": "synth_mouse_0396",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 6.66694164144965,
+      "event_count": 163
+    },
+    {
+      "session_id": "synth_mouse_0397",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 6.496810182262818,
+      "event_count": 75
+    },
+    {
+      "session_id": "synth_mouse_0398",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 4.884131896755505,
+      "event_count": 50
+    },
+    {
+      "session_id": "synth_mouse_0399",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 7.727576158167167,
+      "event_count": 139
+    },
+    {
+      "session_id": "synth_mouse_0400",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 3.0246381449015467,
+      "event_count": 33
+    },
+    {
+      "session_id": "synth_mouse_0401",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 9.664692677729423,
+      "event_count": 130
+    },
+    {
+      "session_id": "synth_mouse_0402",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 5.379830484996385,
+      "event_count": 149
+    },
+    {
+      "session_id": "synth_mouse_0403",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 10.484259026599197,
+      "event_count": 160
+    },
+    {
+      "session_id": "synth_mouse_0404",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 4.074058790609067,
+      "event_count": 86
+    },
+    {
+      "session_id": "synth_mouse_0405",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 5.275112964150413,
+      "event_count": 63
+    },
+    {
+      "session_id": "synth_mouse_0406",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.744854285649739,
+      "event_count": 171
+    },
+    {
+      "session_id": "synth_mouse_0407",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.469633735505838,
+      "event_count": 209
+    },
+    {
+      "session_id": "synth_mouse_0408",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 8.373519154016105,
+      "event_count": 171
+    },
+    {
+      "session_id": "synth_mouse_0409",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 3.2400446528173035,
+      "event_count": 61
+    },
+    {
+      "session_id": "synth_mouse_0410",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 5.0991674624339485,
+      "event_count": 61
+    },
+    {
+      "session_id": "synth_mouse_0411",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 6.706971748654377,
+      "event_count": 95
+    },
+    {
+      "session_id": "synth_mouse_0412",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.517448395593165,
+      "event_count": 183
+    },
+    {
+      "session_id": "synth_mouse_0413",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 6.482762767167378,
+      "event_count": 62
+    },
+    {
+      "session_id": "synth_mouse_0414",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 11.814937837275561,
+      "event_count": 306
+    },
+    {
+      "session_id": "synth_mouse_0415",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 8.446572927249445,
+      "event_count": 100
+    },
+    {
+      "session_id": "synth_mouse_0416",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 7.191030141976682,
+      "event_count": 170
+    },
+    {
+      "session_id": "synth_mouse_0417",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 11.685984291086887,
+      "event_count": 364
+    },
+    {
+      "session_id": "synth_mouse_0418",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.055666624048015,
+      "event_count": 182
+    },
+    {
+      "session_id": "synth_mouse_0419",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.867932689176428,
+      "event_count": 167
+    },
+    {
+      "session_id": "synth_mouse_0420",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 4.864825773501463,
+      "event_count": 127
+    },
+    {
+      "session_id": "synth_mouse_0421",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 7.552487882317981,
+      "event_count": 124
+    },
+    {
+      "session_id": "synth_mouse_0422",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 8.38885929433024,
+      "event_count": 135
+    },
+    {
+      "session_id": "synth_mouse_0423",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 4.754157885061472,
+      "event_count": 103
+    },
+    {
+      "session_id": "synth_mouse_0424",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 8.638641010600065,
+      "event_count": 179
+    },
+    {
+      "session_id": "synth_mouse_0425",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 4.112055277859643,
+      "event_count": 54
+    },
+    {
+      "session_id": "synth_mouse_0426",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 9.766047184742932,
+      "event_count": 166
+    },
+    {
+      "session_id": "synth_mouse_0427",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 10.169501010783186,
+      "event_count": 162
+    },
+    {
+      "session_id": "synth_mouse_0428",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 9.542717400761061,
+      "event_count": 145
+    },
+    {
+      "session_id": "synth_mouse_0429",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 6.884968307058042,
+      "event_count": 96
+    },
+    {
+      "session_id": "synth_mouse_0430",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.326303052035293,
+      "event_count": 232
+    },
+    {
+      "session_id": "synth_mouse_0431",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 11.23945462307423,
+      "event_count": 293
+    },
+    {
+      "session_id": "synth_mouse_0432",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 9.721415320752524,
+      "event_count": 323
+    },
+    {
+      "session_id": "synth_mouse_0433",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 3.21464872378479,
+      "event_count": 75
+    },
+    {
+      "session_id": "synth_mouse_0434",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 10.147365483586992,
+      "event_count": 331
+    },
+    {
+      "session_id": "synth_mouse_0435",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 10.294690731470734,
+      "event_count": 112
+    },
+    {
+      "session_id": "synth_mouse_0436",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 6.46832182440027,
+      "event_count": 129
+    },
+    {
+      "session_id": "synth_mouse_0437",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 4.158866866060381,
+      "event_count": 61
+    },
+    {
+      "session_id": "synth_mouse_0438",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 5.232293215093639,
+      "event_count": 63
+    },
+    {
+      "session_id": "synth_mouse_0439",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 10.551357849485859,
+      "event_count": 129
+    },
+    {
+      "session_id": "synth_mouse_0440",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 3.82155789350144,
+      "event_count": 91
+    },
+    {
+      "session_id": "synth_mouse_0441",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 5.825790381882608,
+      "event_count": 171
+    },
+    {
+      "session_id": "synth_mouse_0442",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 3.834311468147126,
+      "event_count": 37
+    },
+    {
+      "session_id": "synth_mouse_0443",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 6.2709654498818015,
+      "event_count": 151
+    },
+    {
+      "session_id": "synth_mouse_0444",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 6.821703577511326,
+      "event_count": 116
+    },
+    {
+      "session_id": "synth_mouse_0445",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 3.8182792786933626,
+      "event_count": 128
+    },
+    {
+      "session_id": "synth_mouse_0446",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 7.865579373522905,
+      "event_count": 110
+    },
+    {
+      "session_id": "synth_mouse_0447",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 4.106352473424969,
+      "event_count": 132
+    },
+    {
+      "session_id": "synth_mouse_0448",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 4.549152433626498,
+      "event_count": 69
+    },
+    {
+      "session_id": "synth_mouse_0449",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 8.854757541872065,
+      "event_count": 184
+    },
+    {
+      "session_id": "synth_mouse_0450",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 3.511266990253485,
+      "event_count": 88
+    },
+    {
+      "session_id": "synth_mouse_0451",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 7.856550296780343,
+      "event_count": 163
+    },
+    {
+      "session_id": "synth_mouse_0452",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 5.8777039477764115,
+      "event_count": 147
+    },
+    {
+      "session_id": "synth_mouse_0453",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 7.130175142469581,
+      "event_count": 154
+    },
+    {
+      "session_id": "synth_mouse_0454",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 8.87749562440862,
+      "event_count": 117
+    },
+    {
+      "session_id": "synth_mouse_0455",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 11.527441332269369,
+      "event_count": 153
+    },
+    {
+      "session_id": "synth_mouse_0456",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.367877736972265,
+      "event_count": 167
+    },
+    {
+      "session_id": "synth_mouse_0457",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 8.314533857889476,
+      "event_count": 129
+    },
+    {
+      "session_id": "synth_mouse_0458",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 4.900090836849476,
+      "event_count": 64
+    },
+    {
+      "session_id": "synth_mouse_0459",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 3.9745179036830516,
+      "event_count": 68
+    },
+    {
+      "session_id": "synth_mouse_0460",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 8.393128814551803,
+      "event_count": 235
+    },
+    {
+      "session_id": "synth_mouse_0461",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 3.162634204401379,
+      "event_count": 32
+    },
+    {
+      "session_id": "synth_mouse_0462",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 6.249660951415806,
+      "event_count": 82
+    },
+    {
+      "session_id": "synth_mouse_0463",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 7.2312896348575,
+      "event_count": 115
+    },
+    {
+      "session_id": "synth_mouse_0464",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 11.624603886794235,
+      "event_count": 255
+    },
+    {
+      "session_id": "synth_mouse_0465",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 10.321493149951188,
+      "event_count": 159
+    },
+    {
+      "session_id": "synth_mouse_0466",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.357363008999354,
+      "event_count": 142
+    },
+    {
+      "session_id": "synth_mouse_0467",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 7.397517332899045,
+      "event_count": 105
+    },
+    {
+      "session_id": "synth_mouse_0468",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 8.69110182273353,
+      "event_count": 150
+    },
+    {
+      "session_id": "synth_mouse_0469",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 11.153245375741935,
+      "event_count": 187
+    },
+    {
+      "session_id": "synth_mouse_0470",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 9.0709352800117,
+      "event_count": 171
+    },
+    {
+      "session_id": "synth_mouse_0471",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 4.46679727178687,
+      "event_count": 126
+    },
+    {
+      "session_id": "synth_mouse_0472",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 7.2253931646955065,
+      "event_count": 134
+    },
+    {
+      "session_id": "synth_mouse_0473",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 11.940080128206562,
+      "event_count": 325
+    },
+    {
+      "session_id": "synth_mouse_0474",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.54802184248479,
+      "event_count": 106
+    },
+    {
+      "session_id": "synth_mouse_0475",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.49074699926086,
+      "event_count": 133
+    },
+    {
+      "session_id": "synth_mouse_0476",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 6.994103514370287,
+      "event_count": 98
+    },
+    {
+      "session_id": "synth_mouse_0477",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 5.885324363152641,
+      "event_count": 55
+    },
+    {
+      "session_id": "synth_mouse_0478",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 4.241714614169981,
+      "event_count": 114
+    },
+    {
+      "session_id": "synth_mouse_0479",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 6.685294682259823,
+      "event_count": 96
+    },
+    {
+      "session_id": "synth_mouse_0480",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 11.858328731577355,
+      "event_count": 140
+    },
+    {
+      "session_id": "synth_mouse_0481",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.789696214505106,
+      "event_count": 228
+    },
+    {
+      "session_id": "synth_mouse_0482",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 4.643575110489764,
+      "event_count": 103
+    },
+    {
+      "session_id": "synth_mouse_0483",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 3.8393505388003053,
+      "event_count": 54
+    },
+    {
+      "session_id": "synth_mouse_0484",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 8.82752255570752,
+      "event_count": 88
+    },
+    {
+      "session_id": "synth_mouse_0485",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 3.855528924575379,
+      "event_count": 118
+    },
+    {
+      "session_id": "synth_mouse_0486",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 11.970391996852042,
+      "event_count": 126
+    },
+    {
+      "session_id": "synth_mouse_0487",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 10.814263440877317,
+      "event_count": 332
+    },
+    {
+      "session_id": "synth_mouse_0488",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 11.733744524748161,
+      "event_count": 203
+    },
+    {
+      "session_id": "synth_mouse_0489",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 6.481400374102944,
+      "event_count": 80
+    },
+    {
+      "session_id": "synth_mouse_0490",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 9.481280029010588,
+      "event_count": 291
+    },
+    {
+      "session_id": "synth_mouse_0491",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 8.42065934293624,
+      "event_count": 137
+    },
+    {
+      "session_id": "synth_mouse_0492",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 8.54681888673241,
+      "event_count": 87
+    },
+    {
+      "session_id": "synth_mouse_0493",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 4.088139807083088,
+      "event_count": 63
+    },
+    {
+      "session_id": "synth_mouse_0494",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 3.2905249256694122,
+      "event_count": 75
+    },
+    {
+      "session_id": "synth_mouse_0495",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 9.945114211372506,
+      "event_count": 105
+    },
+    {
+      "session_id": "synth_mouse_0496",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 11.149406382948856,
+      "event_count": 222
+    },
+    {
+      "session_id": "synth_mouse_0497",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.098287332127468,
+      "event_count": 155
+    },
+    {
+      "session_id": "synth_mouse_0498",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 6.23841789249577,
+      "event_count": 96
+    },
+    {
+      "session_id": "synth_mouse_0499",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 9.91694295777211,
+      "event_count": 177
+    },
+    {
+      "session_id": "synth_mouse_0500",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 10.681513950362724,
+      "event_count": 133
+    },
+    {
+      "session_id": "synth_mouse_0501",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 3.129737057303939,
+      "event_count": 46
+    },
+    {
+      "session_id": "synth_mouse_0502",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 5.672804617180356,
+      "event_count": 85
+    },
+    {
+      "session_id": "synth_mouse_0503",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 6.610617926559248,
+      "event_count": 139
+    },
+    {
+      "session_id": "synth_mouse_0504",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 11.397218921196188,
+      "event_count": 153
+    },
+    {
+      "session_id": "synth_mouse_0505",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 7.902736052104815,
+      "event_count": 119
+    },
+    {
+      "session_id": "synth_mouse_0506",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 7.892649441250213,
+      "event_count": 242
+    },
+    {
+      "session_id": "synth_mouse_0507",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 9.943084784836714,
+      "event_count": 126
+    },
+    {
+      "session_id": "synth_mouse_0508",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 3.794032268977513,
+      "event_count": 53
+    },
+    {
+      "session_id": "synth_mouse_0509",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.504198681351342,
+      "event_count": 115
+    },
+    {
+      "session_id": "synth_mouse_0510",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 11.560708448545782,
+      "event_count": 180
+    },
+    {
+      "session_id": "synth_mouse_0511",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.730297817585853,
+      "event_count": 129
+    },
+    {
+      "session_id": "synth_mouse_0512",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 8.89477581052049,
+      "event_count": 302
+    },
+    {
+      "session_id": "synth_mouse_0513",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 11.832471763913091,
+      "event_count": 303
+    },
+    {
+      "session_id": "synth_mouse_0514",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 9.335363774614827,
+      "event_count": 162
+    },
+    {
+      "session_id": "synth_mouse_0515",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 4.0458053382223635,
+      "event_count": 78
+    },
+    {
+      "session_id": "synth_mouse_0516",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 5.926711055591663,
+      "event_count": 79
+    },
+    {
+      "session_id": "synth_mouse_0517",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 3.692258122912892,
+      "event_count": 44
+    },
+    {
+      "session_id": "synth_mouse_0518",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 4.823065826157908,
+      "event_count": 109
+    },
+    {
+      "session_id": "synth_mouse_0519",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 10.617104003225307,
+      "event_count": 171
+    },
+    {
+      "session_id": "synth_mouse_0520",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 10.973864614203496,
+      "event_count": 211
+    },
+    {
+      "session_id": "synth_mouse_0521",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 3.111049332236729,
+      "event_count": 31
+    },
+    {
+      "session_id": "synth_mouse_0522",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.734519160776763,
+      "event_count": 99
+    },
+    {
+      "session_id": "synth_mouse_0523",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 11.298881044108285,
+      "event_count": 123
+    },
+    {
+      "session_id": "synth_mouse_0524",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 5.1312194265485225,
+      "event_count": 59
+    },
+    {
+      "session_id": "synth_mouse_0525",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 3.3491018330977314,
+      "event_count": 67
+    },
+    {
+      "session_id": "synth_mouse_0526",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 10.114018831007908,
+      "event_count": 137
+    },
+    {
+      "session_id": "synth_mouse_0527",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 6.034252338541494,
+      "event_count": 95
+    },
+    {
+      "session_id": "synth_mouse_0528",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 11.040408839668746,
+      "event_count": 125
+    },
+    {
+      "session_id": "synth_mouse_0529",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 7.096868526153777,
+      "event_count": 212
+    },
+    {
+      "session_id": "synth_mouse_0530",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 6.062512648180283,
+      "event_count": 176
+    },
+    {
+      "session_id": "synth_mouse_0531",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 4.185422938085876,
+      "event_count": 55
+    },
+    {
+      "session_id": "synth_mouse_0532",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 4.149659946694829,
+      "event_count": 49
+    },
+    {
+      "session_id": "synth_mouse_0533",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 7.278910948581787,
+      "event_count": 121
+    },
+    {
+      "session_id": "synth_mouse_0534",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 7.973490474825928,
+      "event_count": 157
+    },
+    {
+      "session_id": "synth_mouse_0535",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 8.15417708215136,
+      "event_count": 189
+    },
+    {
+      "session_id": "synth_mouse_0536",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 9.973909260982492,
+      "event_count": 104
+    },
+    {
+      "session_id": "synth_mouse_0537",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 3.2490388315046803,
+      "event_count": 38
+    },
+    {
+      "session_id": "synth_mouse_0538",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 3.9047432037007805,
+      "event_count": 39
+    },
+    {
+      "session_id": "synth_mouse_0539",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 9.561337733825635,
+      "event_count": 121
+    },
+    {
+      "session_id": "synth_mouse_0540",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 8.860403114135213,
+      "event_count": 117
+    },
+    {
+      "session_id": "synth_mouse_0541",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 5.321994087399686,
+      "event_count": 92
+    },
+    {
+      "session_id": "synth_mouse_0542",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 4.638270599954457,
+      "event_count": 105
+    },
+    {
+      "session_id": "synth_mouse_0543",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 6.801399844902274,
+      "event_count": 72
+    },
+    {
+      "session_id": "synth_mouse_0544",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 7.904259465446254,
+      "event_count": 136
+    },
+    {
+      "session_id": "synth_mouse_0545",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 7.823558480838231,
+      "event_count": 77
+    },
+    {
+      "session_id": "synth_mouse_0546",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 6.490844019423816,
+      "event_count": 110
+    },
+    {
+      "session_id": "synth_mouse_0547",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 11.982516097955099,
+      "event_count": 158
+    },
+    {
+      "session_id": "synth_mouse_0548",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 6.963867186205251,
+      "event_count": 193
+    },
+    {
+      "session_id": "synth_mouse_0549",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 3.7622690817547078,
+      "event_count": 46
+    },
+    {
+      "session_id": "synth_mouse_0550",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 11.369854650915062,
+      "event_count": 188
+    },
+    {
+      "session_id": "synth_mouse_0551",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 5.822741133830697,
+      "event_count": 79
+    },
+    {
+      "session_id": "synth_mouse_0552",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 3.5533160045032215,
+      "event_count": 105
+    },
+    {
+      "session_id": "synth_mouse_0553",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 4.767094841776396,
+      "event_count": 81
+    },
+    {
+      "session_id": "synth_mouse_0554",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 5.330205450378354,
+      "event_count": 56
+    },
+    {
+      "session_id": "synth_mouse_0555",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.66903600773347,
+      "event_count": 260
+    },
+    {
+      "session_id": "synth_mouse_0556",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.453603196211834,
+      "event_count": 232
+    },
+    {
+      "session_id": "synth_mouse_0557",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 9.64140481661388,
+      "event_count": 188
+    },
+    {
+      "session_id": "synth_mouse_0558",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 9.179073840521829,
+      "event_count": 144
+    },
+    {
+      "session_id": "synth_mouse_0559",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 6.907143584062725,
+      "event_count": 112
+    },
+    {
+      "session_id": "synth_mouse_0560",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 8.968280435214002,
+      "event_count": 204
+    },
+    {
+      "session_id": "synth_mouse_0561",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.898526366555839,
+      "event_count": 170
+    },
+    {
+      "session_id": "synth_mouse_0562",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 10.376541119180121,
+      "event_count": 125
+    },
+    {
+      "session_id": "synth_mouse_0563",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 6.976526718276002,
+      "event_count": 87
+    },
+    {
+      "session_id": "synth_mouse_0564",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 5.865566898307394,
+      "event_count": 65
+    },
+    {
+      "session_id": "synth_mouse_0565",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 11.560218291582549,
+      "event_count": 297
+    },
+    {
+      "session_id": "synth_mouse_0566",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 5.48953149450156,
+      "event_count": 62
+    },
+    {
+      "session_id": "synth_mouse_0567",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 4.919595206914128,
+      "event_count": 56
+    },
+    {
+      "session_id": "synth_mouse_0568",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 4.015750393384381,
+      "event_count": 88
+    },
+    {
+      "session_id": "synth_mouse_0569",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 11.242325887400535,
+      "event_count": 213
+    },
+    {
+      "session_id": "synth_mouse_0570",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.668799707160314,
+      "event_count": 139
+    },
+    {
+      "session_id": "synth_mouse_0571",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 6.7693931792057995,
+      "event_count": 91
+    },
+    {
+      "session_id": "synth_mouse_0572",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.174260267481305,
+      "event_count": 103
+    },
+    {
+      "session_id": "synth_mouse_0573",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.165658698156225,
+      "event_count": 104
+    },
+    {
+      "session_id": "synth_mouse_0574",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 3.852141545867367,
+      "event_count": 73
+    },
+    {
+      "session_id": "synth_mouse_0575",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.063180768598246,
+      "event_count": 107
+    },
+    {
+      "session_id": "synth_mouse_0576",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 8.027152140242492,
+      "event_count": 149
+    },
+    {
+      "session_id": "synth_mouse_0577",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 10.400017357496463,
+      "event_count": 192
+    },
+    {
+      "session_id": "synth_mouse_0578",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 3.2442741601090637,
+      "event_count": 65
+    },
+    {
+      "session_id": "synth_mouse_0579",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 10.824475018565785,
+      "event_count": 337
+    },
+    {
+      "session_id": "synth_mouse_0580",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 4.820643627765207,
+      "event_count": 126
+    },
+    {
+      "session_id": "synth_mouse_0581",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 9.186841367078923,
+      "event_count": 288
+    },
+    {
+      "session_id": "synth_mouse_0582",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 4.115964570366364,
+      "event_count": 43
+    },
+    {
+      "session_id": "synth_mouse_0583",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 8.868043054042328,
+      "event_count": 98
+    },
+    {
+      "session_id": "synth_mouse_0584",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 4.935088115814791,
+      "event_count": 65
+    },
+    {
+      "session_id": "synth_mouse_0585",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 9.102211848693871,
+      "event_count": 208
+    },
+    {
+      "session_id": "synth_mouse_0586",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 6.124032360669625,
+      "event_count": 84
+    },
+    {
+      "session_id": "synth_mouse_0587",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 5.64299014179625,
+      "event_count": 69
+    },
+    {
+      "session_id": "synth_mouse_0588",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 5.981527598115403,
+      "event_count": 119
+    },
+    {
+      "session_id": "synth_mouse_0589",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 5.282203975836163,
+      "event_count": 111
+    },
+    {
+      "session_id": "synth_mouse_0590",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 6.294542119481032,
+      "event_count": 147
+    },
+    {
+      "session_id": "synth_mouse_0591",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 6.092561155988928,
+      "event_count": 122
+    },
+    {
+      "session_id": "synth_mouse_0592",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 7.020656717836925,
+      "event_count": 103
+    },
+    {
+      "session_id": "synth_mouse_0593",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 4.5186999341402725,
+      "event_count": 97
+    },
+    {
+      "session_id": "synth_mouse_0594",
+      "label": "Mouse",
+      "split": "val",
+      "duration_s": 4.637739048741728,
+      "event_count": 61
+    },
+    {
+      "session_id": "synth_mouse_0595",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 8.560863490206124,
+      "event_count": 147
+    },
+    {
+      "session_id": "synth_mouse_0596",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 4.616233493079425,
+      "event_count": 69
+    },
+    {
+      "session_id": "synth_mouse_0597",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 8.249934351220602,
+      "event_count": 239
+    },
+    {
+      "session_id": "synth_mouse_0598",
+      "label": "Mouse",
+      "split": "train",
+      "duration_s": 9.374877632060322,
+      "event_count": 262
+    },
+    {
+      "session_id": "synth_mouse_0599",
+      "label": "Mouse",
+      "split": "test",
+      "duration_s": 9.431884291461529,
+      "event_count": 261
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.local
+node_modules/
+.next/
+
+data/uploads/
+*.pcap
+*.pcapng
+
+# Downloaded research data and generated CAN outputs are local-only.
+data/can/raw/
+data/can/processed/
+data/can/manifests/*.json
+artifacts/can_*/
+reports/evaluation/*.json
+reports/evaluation/*.png
+
+# Generated deployment output
+deploy/hf_space/
+web/frontend/dist/
+
+# Local tools and runtime state
+cloudflared.exe.exe
+tools/cloudflared.exe
+data/can/manifests/*.db
